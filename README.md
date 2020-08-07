@@ -8,7 +8,7 @@ For example, if you have a device like the Arduino LilyPad USB (WHID Cactus) wit
 
 So, with these libraries, you can change the keyboard layout of your device. (This was an example of a possible usage with a WHID Cactus. A tutorial on how to change the WHID keyboard layout can be found down below.)
 
-## How To Install on Arduino IDE
+## How To Install Keyboard Libraries on Arduino IDE
 Go to your Arduino IDE Keyboard Libraries directory which is usually located in "C:\Program Files (x86)\Arduino\libraries\Keyboard\src".
 
 Make a backup of your Keyboard.cpp and Keyboard.h and delete them from the "src" folder.
