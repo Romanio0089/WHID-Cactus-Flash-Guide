@@ -16,3 +16,20 @@ Make a backup of your Keyboard.cpp and Keyboard.h and delete them from the "src"
 Copy the Keyboard.cpp and Keyboard.h that you downloaded at the language you want from this repository to "C:\Program Files (x86)\Arduino\libraries\Keyboard\src".
 
 The new language libraries are now sucessfully installed.
+
+## WHID Cactus (ESPloitV2) keyboard layout change [TUTORIAL]
+Before starting, you need to have Arduino IDE installed on your computer. If not, please download it here : https://www.arduino.cc/en/Main/Software.
+
+· Open Arduino IDE
+
+· Select Sketch - Include Library - Manage Libraries. 
+
+· Search for "ArduinoJson" (without quotes).
+
+· Install "ArduinoJson by Benoit Blanchon - version 5.11.0" and click "Close"   
+
+· Download https://github.com/exploitagency/esp8266FTPServer/archive/feature/bbx10_speedup.zip
+
+· Click Sketch - Include Library - Add .ZIP Library and select esp8266FTPServer-feature-bbx10_speedup from where you downloaded the file.
+
+Work In Progress
