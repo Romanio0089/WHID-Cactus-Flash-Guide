@@ -2,7 +2,11 @@
 The best place to find Keyboard.cpp + Keyboard.h for your language !
 
 ## What are the Keyboard.cpp and Keyboard.h used for ?
-These libraries are mainly used for HID devices. For example, if you have a device like the Arduino LilyPad USB (WHID Cactus) with ESPloitV2, if you write for example a payload with an AZERTY (French) keyboard, and the device was originally configured with a Keyboard.cpp and Keyboard.h which is a QWERTY keyboard of some kind, payloads won't work properly and instead of outputting for example a - you asked for, it will output a / because you pressed - key on your keyboard, but the keyboard layout on the device is not the same, so, that same key, at the same location of your - key, is indeed a /. So, with these libraries, you can change the keyboard layout of your device. (This was an example of a possible usage with a WHID Cactus. A tutorial on how to change the WHID keyboard layout can be found down below.)
+These libraries are mainly used for HID devices. 
+
+For example, if you have a device like the Arduino LilyPad USB (WHID Cactus) with ESPloitV2, if you write for example a payload with an AZERTY (French) keyboard, and the device was originally configured with a Keyboard.cpp and Keyboard.h which is a QWERTY keyboard of some kind, payloads won't work properly and instead of outputting for example a - you asked for, it will output a / because you pressed - key on your keyboard, but the keyboard layout on the device is not the same, so, that same key, at the same location of your - key, is indeed a /. 
+
+So, with these libraries, you can change the keyboard layout of your device. (This was an example of a possible usage with a WHID Cactus. A tutorial on how to change the WHID keyboard layout can be found down below.)
 
 ## How To Install on Arduino IDE
 Go to your Arduino IDE Keyboard Libraries directory which is usually located in "C:\Program Files (x86)\Arduino\libraries\Keyboard\src".
