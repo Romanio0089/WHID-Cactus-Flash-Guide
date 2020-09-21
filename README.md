@@ -32,4 +32,40 @@ Before starting, you need to have Arduino IDE installed on your computer. If not
 
 · Click Sketch - Include Library - Add .ZIP Library and select esp8266FTPServer-feature-bbx10_speedup from where you downloaded the file.
 
-Work In Progress
+· Download/extract the ESPloitV2 repository as a zip file : https://github.com/exploitagency/ESPloitV2/archive/master.zip
+
+· Load the "esp8266Programmer" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
+
+· Select Tools - Board - "LilyPad Arduino USB".
+
+· Select the port your device is connected to under Tools - Port.
+
+· Upload the sketch to the device.
+
+· Load the "ESP_Code" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
+
+· Select Tools - Board - "Generic ESP8266 Module".
+
+· Select Tools - Flash Size - "4M (3M SPIFFS)".
+
+· Select Sketch - "Export Compiled Binary".
+
+· Now flash the firmware to the ESP-12S chip using NodeMCU Flasher. You can also use esptool on Linux, however, I will not cover it in this tutorial.
+NodeMCU Flasher (Windows users) : https://github.com/nodemcu/nodemcu-flasher
+esptool (for Linux only) : https://github.com/AprilBrother/esptool
+
+· In NodeMCU, go to config, and click on the settings icon near the green line.
+
+· Select the new file that appeared in the ESP_Code folder that can be found in the ESPloitV2 repository you extracted. The file will have a name same or similar as "ESP_Code.ino.generic.bin".
+
+· Then, go back to operation, and select the port the WHID Cactus is connected to then click flash.
+
+· Finally, open the "Arduino_32u4_code" sketch from the source folder that can be found in the ESPloitV2 repository you extracted.
+
+· Select Tools - Board - "LilyPad Arduino USB".
+
+· Select the port your device is connected to under Tools - Port.
+
+· Then upload the sketch to the device.
+
+DONE !
