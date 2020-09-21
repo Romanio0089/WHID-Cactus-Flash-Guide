@@ -58,9 +58,13 @@ Before starting, you need to have Arduino IDE installed on your computer. If not
 
 · Now flash the firmware to the ESP-12S chip using NodeMCU Flasher. You can also use esptool on Linux, however, I will not cover it in this tutorial.
 
+ 
+
 NodeMCU Flasher (Windows users) : https://github.com/nodemcu/nodemcu-flasher
 
 esptool (for Linux only) : https://github.com/AprilBrother/esptool
+
+ 
 
 · In NodeMCU, go to config, and click on the settings icon near the green line.
 
