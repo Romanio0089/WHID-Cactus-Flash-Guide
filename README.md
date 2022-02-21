@@ -22,7 +22,7 @@ Before starting, you need to have Arduino IDE installed on your computer. If not
 
 ### Step 1
 
-· Install your desired keyboard layout with the method above.
+· Install your desired keyboard library (layout) with the method written above.
 
 · Open Arduino IDE
 
