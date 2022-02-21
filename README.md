@@ -1,5 +1,5 @@
-# Arduino Keyboard Libraries
-The best place to find Keyboard.cpp + Keyboard.h for your language !
+# WHID Cactus Flash Guide / Keyboard Layout Change
+This method applies for ESPloitV2.
 
 ## What are the Keyboard.cpp and Keyboard.h used for ?
 These libraries are mainly used for HID devices. 
@@ -21,6 +21,8 @@ The new language libraries are now sucessfully installed.
 Before starting, you need to have Arduino IDE installed on your computer. If not, please download it here : https://www.arduino.cc/en/Main/Software.
 
 ### Step 1
+
+· Install your desired keyboard layout with the method above.
 
 · Open Arduino IDE
 
