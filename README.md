@@ -22,64 +22,62 @@ Before starting, you need to have Arduino IDE installed on your computer. If not
 
 ### Step 1
 
-· Install your desired keyboard library (layout) with the method written above.
+* Install your desired keyboard library (layout) with the method written above.
 
-· Open Arduino IDE
+* Open Arduino IDE
 
-· Select Sketch - Include Library - Manage Libraries. 
+* Select Sketch - Include Library - Manage Libraries. 
 
-· Search for "ArduinoJson" (without quotes).
+* Search for "ArduinoJson" (without quotes).
 
-· Install "ArduinoJson by Benoit Blanchon - version 5.11.0" and click "Close"   
+* Install "ArduinoJson by Benoit Blanchon - version 5.11.0" and click "Close"   
 
-· Download https://github.com/exploitagency/esp8266FTPServer/archive/feature/bbx10_speedup.zip
+* Download https://github.com/exploitagency/esp8266FTPServer/archive/feature/bbx10_speedup.zip
 
-· Click Sketch - Include Library - Add .ZIP Library and select esp8266FTPServer-feature-bbx10_speedup from where you downloaded the file.
+* Click Sketch - Include Library - Add .ZIP Library and select esp8266FTPServer-feature-bbx10_speedup from where you downloaded the file.
 
 ### Step 2
 
-· Download/extract the ESPloitV2 repository as a zip file : https://github.com/exploitagency/ESPloitV2/archive/master.zip
+* Download/extract the ESPloitV2 repository as a zip file : https://github.com/exploitagency/ESPloitV2/archive/master.zip
 
-· Load the "esp8266Programmer" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
+* Load the "esp8266Programmer" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
 
-· Select Tools - Board - "LilyPad Arduino USB".
+* Select Tools - Board - "LilyPad Arduino USB".
 
-· Select the port your device is connected to under Tools - Port.
+* Select the port your device is connected to under Tools - Port.
 
-· Upload the sketch to the device.
+* Upload the sketch to the device.
 
-· Load the "ESP_Code" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
+* Load the "ESP_Code" sketch from the flashing folder that can be found in the ESPloitV2 repository you extracted.
 
-· Select Tools - Board - "Generic ESP8266 Module".
+* Select Tools - Board - "Generic ESP8266 Module".
 
-· Select Tools - Flash Size - "4M (3M SPIFFS)".
+* Select Tools - Flash Size - "4M (3M SPIFFS)".
 
-· Select Sketch - "Export Compiled Binary".
+* Select Sketch - "Export Compiled Binary".
 
 ### Step 3
 
-· Now flash the firmware to the ESP-12S chip using NodeMCU Flasher. You can also use esptool on Linux, however, I will not cover it in this tutorial.
+* Now flash the firmware to the ESP-12S chip using NodeMCU Flasher. You can also use esptool on Linux, however, I will not cover it in this tutorial.
 
-NodeMCU Flasher (Windows users) : https://github.com/nodemcu/nodemcu-flasher
+**NodeMCU Flasher (Windows users):** https://github.com/nodemcu/nodemcu-flasher
 
-esptool (for Linux only) : https://github.com/AprilBrother/esptool
+**esptool (for Linux only):** https://github.com/AprilBrother/esptool
 
-‎
+* In NodeMCU, go to config, and click on the settings icon near the green line.
 
-· In NodeMCU, go to config, and click on the settings icon near the green line.
+* Select the new file that appeared in the ESP_Code folder that can be found in the ESPloitV2 repository you extracted. The file will have a name same or similar as "ESP_Code.ino.generic.bin".
 
-· Select the new file that appeared in the ESP_Code folder that can be found in the ESPloitV2 repository you extracted. The file will have a name same or similar as "ESP_Code.ino.generic.bin".
-
-· Then, go back to operation, and select the port the WHID Cactus is connected to then click flash.
+* Then, go back to operation, and select the port the WHID Cactus is connected to then click flash.
 
 ### Step 4
 
-· Finally, open the "Arduino_32u4_code" sketch from the source folder that can be found in the ESPloitV2 repository you extracted.
+* Finally, open the "Arduino_32u4_code" sketch from the source folder that can be found in the ESPloitV2 repository you extracted.
 
-· Select Tools - Board - "LilyPad Arduino USB".
+* Select Tools - Board - "LilyPad Arduino USB".
 
-· Select the port your device is connected to under Tools - Port.
+* Select the port your device is connected to under Tools - Port.
 
-· Then upload the sketch to the device.
+* Then upload the sketch to the device.
 
 DONE !
